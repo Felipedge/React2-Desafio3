@@ -1,9 +1,11 @@
-
+import Home from "./Views/Home";
+import Navbar from "./Views/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Holas</h1>
+      <Navbar/>
+      <Home/>
     </>
   );
 }
